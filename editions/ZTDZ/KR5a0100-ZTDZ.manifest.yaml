@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0100/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0100/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 九天應元雷聲普化天尊玉樞寶經集註
+  date: '2015-08-28 23:37:25.346629'
+  source:
+    repository: kanripo
+    path: KR5a0100
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0100_000-ZTDZ.yaml, hash: 'sha256:5b5ba3886d38266812b6b5fcdb97829a9fc7befc523ada095970cd1aa492ecc6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0100_000-ZTDZ.markers.yaml, hash: 'sha256:edb7a6601282aeec09f1b1ccb5b93a3b6946fc02a3aae0aaedc311c380425dbc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0100_SJB_000-020569a
+    span:
+    - body
+    - 0
+    - 15412
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4fd1ebcdbedfe541ba8429e5e3edb4ccb416fc1a9026bd908e49d150aaf26e8e
